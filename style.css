@@ -1,0 +1,141 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+header {
+    color: #f9faf8;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px 0px 200px;
+    background-color: #1f2937;
+}
+
+.links {
+    color: #e5e7eb;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.description {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 150px 200px 150px 200px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.main-text {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 800;
+
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 8px 40px;
+}
+.description-content {
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+
+img {
+    max-height: 300px;
+    object-fit: cover;
+    flex: 1 1 0;
+    
+}
+
+.info {
+    text-align: center;
+    padding: 50px 300px;
+}
+
+.info-text {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.info-content {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap:30px;
+}
+
+.info-content img {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882f6;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.quote {
+    color: #1f2937;
+    font-style: italic;
+    font-size: 36px;
+    background-color: #e5e7eb;
+    padding: 150px 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-name {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    align-self: end;
+}
+
+.signup {
+    background-color: #3882f6;
+    margin: 100px 200px;
+    padding: 50px 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.signup-title {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.signup-text {
+    color: #f9faf8;
+    font-size: 20px;
+}
+
+.signup button {
+    border-color: white;
+}
+
+footer {
+    color: #e5e7eb;
+    font-size: 18px;
+    background-color: #1f2937;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
